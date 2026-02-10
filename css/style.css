@@ -1,0 +1,251 @@
+@import url("./global.css");
+@import url("./font.css");
+
+body {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 140%;
+  letter-spacing: -0.5px;
+}
+
+a {
+  color: #000;
+}
+
+/* HEADER START */
+.header {
+  background-image: url("../bg-pattern\ \(1\).svg");
+}
+.header__card {
+}
+.header__logo {
+  margin-top: 32px;
+}
+.header__content {
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  margin-top: 80px;
+  gap: 64px;
+  margin-bottom: 57px;
+}
+.header__content__card {
+  width: 510px;
+  /* flex-flow: Vertical; */
+}
+.card__title {
+  font-weight: 700;
+  font-family: sans-serif;
+  line-height: 100%;
+  letter-spacing: 1.2px;
+  font-size: 80px;
+}
+.card__desc {
+  width: 500px;
+}
+.content__card {
+  margin-top: 32px;
+}
+.content__card__btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 20.5px 24px;
+  border: 1px solid;
+  width: 380px;
+  border-radius: 8px;
+  font-family: "Martian-mono";
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 130%;
+  letter-spacing: -1px;
+  margin-bottom: 20px;
+}
+.btn {
+}
+.content__card__btn__img {
+}
+.content__card__profile {
+  display: flex;
+  position: relative;
+  align-items: center;
+}
+.content__card__profile__img {
+  border-radius: 50%;
+  position: absolute;
+}
+.content__card__profile__img:nth-child(3) {
+  border: 3px solid #fff;
+  left: 70px;
+}
+
+.content__card__profile__img:nth-child(2) {
+  border: 3px solid #fff;
+  left: 35px;
+}
+
+.content__card__profile__img:nth-child(1) {
+  border: 3px solid #fff;
+}
+
+.content__card__profile__card {
+  /* text-align: end; */
+  margin-left: 122px;
+  display: flex;
+  flex-direction: column;
+}
+.content__card__profile__stars {
+  width: 120px;
+  height: 24px;
+}
+.content__card__profile__desc {
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+
+  color: #385159;
+}
+.header__img {
+  border-radius: 8px;
+  margin-bottom: 66px;
+}
+/* HEADER END */
+
+/* HERO START */
+.hero__card {
+  display: flex;
+  /* justify-content: space-between; */
+  gap: 80px;
+  margin-bottom: 120px;
+}
+.hero__img {
+  border-radius: 8px;
+}
+.hero__content {
+  display: flex;
+  flex-direction: column;
+  gap: 34px;
+  width: 380px;
+}
+.hero__title {
+  font-family: sans-serif;
+  text-align: center;
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 130%;
+  letter-spacing: -2px;
+}
+.content__content {
+}
+.content__list {
+}
+.content__list__item {
+  display: flex;
+  margin-bottom: 24px;
+  align-items: center;
+  gap: 14px;
+}
+.content__item_img {
+  width: 28px;
+  height: 28px;
+}
+.content__item__desc {
+  font-weight: 400;
+  font-size: 20px;
+  color: #385159;
+}
+/* HERO END */
+
+/* SEC START */
+.sec__card {
+  display: flex;
+  align-items: center;
+  position: relative;
+  gap: 80px;
+  margin-bottom: 120px;
+}
+.sec__content {
+  position: relative;
+  width: 520px;
+  display: flex;
+  flex-direction: column;
+}
+.sec__title {
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 130%;
+  letter-spacing: 3.5px;
+  font-family: sans-serif;
+}
+.sec__desc {
+  font-weight: 400;
+  font-size: 20px;
+}
+.desc {
+  font-weight: 600;
+  font-size: 20px;
+}
+.sec__img {
+  position: absolute;
+  top: 100px;
+  left: 130px;
+}
+.sec__card__img {
+  border-radius: 8px;
+}
+.sec__card__github {
+  position: absolute;
+  left: 500px;
+  top: 350px;
+}
+/* SEC END */
+
+/* PART START */
+.part__card {
+  margin-bottom: 120px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.part__title {
+  /* text-align: center; */
+  font-weight: 600;
+  font-size: 50px;
+  width: 350px;
+  line-height: 100%;
+  letter-spacing: -4px;
+  margin-left: 400px;
+  font-family: sans-serif;
+  margin-bottom:  50px;
+}
+.part__content {
+}
+.part__list__item__img_span {
+  display: flex;
+  justify-content: space-between;
+}
+.part__list {
+  display: flex;
+  justify-content: space-between;
+}
+.part__list__item {
+  width: 230px;
+}
+.part__list__item__img_parts {
+}
+.part__list__item__img_arrow {
+  width: 76.74px;
+  height: 20.51px;
+}
+.part__list__item__desc {
+  padding-top: 12px;
+  text-align: start;
+  width: 150px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 130%;
+  line-height: -2px;
+}
+/* PART END */
